@@ -1,0 +1,94 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===============================
+# Environment Variables (IMPORTANT)
+# ===============================
+.env
+.env.*
+*.env
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/secrets.toml
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE Settings
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Vector Database (VERY IMPORTANT)
+# ===============================
+vector_store/
+chromadb/
+*.sqlite3
+
+# ===============================
+# Model / Embedding Cache
+# ===============================
+cache/
+models/
+hf_cache/
+huggingface/
+~/.cache/huggingface/
+
+# ===============================
+# Temporary Files
+# ===============================
+tmp/
+temp/
+*.tmp
+
+# ===============================
+# Data Files (optional)
+# ===============================
+data/*.pdf
+data/raw/
+
+# ===============================
+# Python Testing
+# ===============================
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
+
+# ===============================
+# Mac/Linux Hidden Files
+# ===============================
+*.swp
